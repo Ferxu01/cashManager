@@ -1,0 +1,7 @@
+{
+  "name": "cashManager",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
