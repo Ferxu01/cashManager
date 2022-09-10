@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="closeModal()">Cancelar</ion-button>
+    </ion-buttons>
+    <ion-title>Opciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item lines="none">
+    <h5>¿Qué operación desea realizar?</h5>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-button (click)="openDepositForm()" size="default" expand="block" color="success">Ingresar</ion-button>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-button (click)="openTakeOutForm()" size="default" expand="block" color="success">Retirar</ion-button>
+  </ion-item>
+</ion-content>
